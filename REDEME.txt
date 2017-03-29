@@ -1,0 +1,11 @@
+react-native start
+react-native run-android
+
+
+android avd
+adb shell input keyevent 82
+
+C:\Users\Administrator\AppData\Local\Android\sdk
+
+//npm react-native-keyboard-aware-scroll-view
+//npm react-native-tab-view
