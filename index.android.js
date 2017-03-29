@@ -4,7 +4,7 @@
  * @flow
  */
 
-import React, { Component } from 'react';
+/*import React, { Component } from 'react';
 import {
   AppRegistry,
   StyleSheet,
@@ -50,4 +50,11 @@ const styles = StyleSheet.create({
   },
 });
 
-AppRegistry.registerComponent('myApp', () => myApp);
+AppRegistry.registerComponent('myApp', () => myApp);*/
+'use strict';
+
+import { AppRegistry } from 'react-native';
+
+var HelloWorldApp = require('./src/Routers.android');
+
+AppRegistry.registerComponent('myApp', () => HelloWorldApp);
